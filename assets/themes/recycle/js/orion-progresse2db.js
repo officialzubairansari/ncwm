@@ -1,0 +1,1 @@
+"use strict";jQuery(function($){inView(".progress-bar").on("enter",function(el){var bar_percentage=$(el).attr("data-percentage")+"%";$(el).css("width",bar_percentage)}).on("exit",function(el){$(el).css("width","0")})});

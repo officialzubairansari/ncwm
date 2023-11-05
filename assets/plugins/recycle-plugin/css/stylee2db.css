@@ -1,0 +1,42 @@
+/* Revolution slider 6 fix 11.7.2019 */
+.push-up-row, .row-divide, .push-up-120, .push-up-60 {
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+	.header-with-widgets.site-header .burger-container .to-x {
+	    z-index: 2;
+	}
+}
+
+@media (max-width: 778px) {
+  .rs-layer .btn.btn-md {
+      font-size: 11px;
+  }
+}
+
+/* Chrome update 11.9.2019 */
+.icon-box-items-wrap.short .icon-wrap.absolute {
+    top: 0;
+}
+
+/* 18.9.2019 circle greyscale chrome bug */
+.circle-wrap {
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: all .6s ease-out;
+}
+
+
+/* 10/2019 */
+.comment-form input#wp-comment-cookies-consent {
+  width: 24px;
+  margin-right: 8px;
+  float: left;
+}
+
+/* page builder override 9/2021*/
+.panel-grid .so-parallax> div[class^="overlay"] {
+    position:  absolute;
+}

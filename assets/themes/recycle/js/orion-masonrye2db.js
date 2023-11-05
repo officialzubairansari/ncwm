@@ -1,0 +1,1 @@
+"use strict";jQuery(function($){$(window).on("load",function(){$(".masonry").masonry({itemSelector:".masonry-item",percentPosition:!0}),$(window).on("resize",function(){$(".masonry").masonry("bindResize")})})});

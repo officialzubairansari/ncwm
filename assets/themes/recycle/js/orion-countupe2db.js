@@ -1,0 +1,1 @@
+"use strict";jQuery(function($){inView(".counternumber").on("enter",function(el){$(el).countTo({onComplete:function(value){this.text()!=this.attr("data-to")&&this.text(this.attr("data-to"))}})}).on("exit",function(el){$(el).countTo("restart")})});
